@@ -10,7 +10,7 @@ $maleCount = 0;
 
 // Loop through the list
 foreach ($data as $person) {
-    if (isset($person['gender']) && $person['gender'] === "Male") {
+    if (isset($person['gender']) && $person['gender'] === famaMale") {
         $maleCount++;
     }
 }
